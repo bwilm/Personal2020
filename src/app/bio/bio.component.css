@@ -1,0 +1,50 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  background-color: #ffffff;
+  background-image: url('../../assets/90swallpaper.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  color: black;
+  background-color: rgb(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 120px;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+
+h5{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+p{
+  font-size: 13px
+}
