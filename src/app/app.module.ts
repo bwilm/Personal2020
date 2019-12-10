@@ -8,6 +8,9 @@ import { HeroComponent } from './hero/hero.component';
 import { BioComponent } from './bio/bio.component';
 import { NavComponent } from './nav/nav.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import { SocialsComponent } from './socials/socials.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +18,15 @@ import { ProjectsComponent } from './projects/projects.component';
     HeroComponent,
     BioComponent,
     NavComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    SocialsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatGridListModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

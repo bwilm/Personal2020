@@ -1,10 +1,11 @@
 <div class="container">
-  <div class="header">
+  <div class="header" (click)="showing = !showing " matTooltip="Click to See Bio">
     <h1>BIO</h1>
   </div>
-  <div class="text">
+  <div class="text" *ngIf="showing">
     <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam veritatis est laborum illum autem placeat eaque minus quidem sapiente, harum quisquam iure et ipsam tempora ipsa laudantium qui itaque voluptatibus!
+     Hello, My name is Brandon and I'm a Web Developer from Virginia. I have worked on various professional and personal projects which you will find links to on this site. Please feel free to email me about any opportunities or questions you may have. The email link is at the bottom of this page. Thanks for visiting and speak to you soon!
+      -Brandon
     </p>
   </div>
   </div>
